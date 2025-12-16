@@ -13,25 +13,21 @@
   "workbench.activityBar.location": "hidden",
   "explorer.compactFolders": false,
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.enable": true,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.semi": false,
 
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
-  "workbench.statusBar.visible": false,
   "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.detectIndentation": false,
@@ -40,5 +36,19 @@
   "window.commandCenter": false,
   "security.workspace.trust.untrustedFiles": "open",
   "update.showReleaseNotes": false,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": false,
+    "typescriptreact": false
+  },
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "discord.detailsEditing": "Editing: {dir_name}/{file_name}",
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
